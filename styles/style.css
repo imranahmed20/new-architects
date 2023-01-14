@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* header style */
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.container{
+    margin: 0px 120px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+}
