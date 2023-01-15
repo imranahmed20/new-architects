@@ -144,7 +144,7 @@ nav a {
     justify-content: space-between;
     width: 950px;
     margin-top: 120px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 
 }
 
@@ -189,11 +189,14 @@ nav a {
 
 .about-image {
     position: relative;
+    height:
+        1059px;
 
 }
 
 .about-image img {
     width: 100%;
+
     padding-left: 60px;
 }
 
@@ -301,7 +304,8 @@ nav a {
     font-size: 16px;
     color: #727272;
 }
-.sponsored{
+
+.sponsored {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -309,6 +313,26 @@ nav a {
     margin-top: 80px;
     color: #424242;
 }
-.sponsored img{
+
+.sponsored img {
     width: 166.76px;
 }
+
+/* footer styles*/
+.footer-text {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 40px;
+
+}
+
+.footer-detail {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+}
+
+
+/*  */
