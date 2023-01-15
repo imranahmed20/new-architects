@@ -73,7 +73,7 @@ nav a {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin: 20px 150px;
+    margin: 20px 90px;
 }
 
 /* button styles */
@@ -135,4 +135,106 @@ nav a {
     font-weight: 700;
     font-size: 45px;
     color: #FF900E;
+}
+
+/* about styles */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 200px;
+
+}
+
+.about-description {
+    width: 75%;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 42px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+}
+
+.about-detail {
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+
+.about-text {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin-bottom: 10PX;
+}
+
+.text-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #131313;
+
+}
+
+.text-detail {
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+
+.about-image .btn {
+    position: absolute;
+}
+
+.about-image img {
+    width: 100%;
+    padding-left: 60px;
+    position: relative;
+
+}
+
+/* button 10+ year style */
+.btn-year {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    padding: 0px 20px;
+    position: absolute;
+    margin-left: 20px;
+
+
+
+}
+
+#year {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+/* fact styles */
+.facts{
+    text-align: left;
+    margin: 50px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+}
+
+.fact-detail {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+   
 }
