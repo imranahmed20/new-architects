@@ -142,6 +142,7 @@ nav a {
 .about {
     display: flex;
     justify-content: space-between;
+    width: 950px;
     margin-top: 120px;
     margin-bottom: 200px;
 
@@ -186,15 +187,14 @@ nav a {
     color: #727272;
 }
 
-.about-image .btn {
-    position: absolute;
+.about-image {
+    position: relative;
+
 }
 
 .about-image img {
     width: 100%;
     padding-left: 60px;
-    position: relative;
-
 }
 
 /* button 10+ year style */
@@ -205,7 +205,7 @@ nav a {
     background: #FF900E;
     border-radius: 8px;
     border: 0px;
-    padding: 0px 20px;
+    padding: 10px 20px;
     position: absolute;
     margin-left: 20px;
 
@@ -221,9 +221,9 @@ nav a {
 }
 
 /* fact styles */
-.facts{
+.facts {
     text-align: left;
-    margin: 50px;
+
 }
 
 .fact-title {
@@ -236,5 +236,79 @@ nav a {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-   
+
+}
+
+
+/*icons styles  */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+
+.icon-btn {
+
+    padding: 40px;
+    height: 200.83px;
+    width: 200.83px;
+    border: 1px solid #FF900E;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+}
+
+/* hover style */
+.icon-btn:hover {
+    background-color: aqua;
+}
+
+.icons img {
+    width: 45px;
+
+}
+
+.icon-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #424242;
+
+}
+
+.icon-detail {
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+
+/* sponsored  styles*/
+.sponsored-text {
+    text-align: center;
+    margin: 20px 250px;
+}
+
+.sponsored-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+.sponsored-detail {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponsored{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    color: #424242;
+}
+.sponsored img{
+    width: 166.76px;
 }
