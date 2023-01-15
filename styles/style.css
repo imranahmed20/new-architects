@@ -19,7 +19,7 @@ header {
 
 /* container style */
 .container {
-    padding: 0px 120px;
+    margin: 0px 120px;
 
 }
 
@@ -88,7 +88,7 @@ nav a {
 }
 
 .container img {
-    width: 980px;
+    width: 1000px;
     margin-bottom: 20px;
 }
 
